@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# This is an example environment configuration file for Projalyzer.
+#
+# Instructions:
+# 1. Create a copy of this file named `gcenv.sh`:
+#    cp gcenv.sh.example gcenv.sh
+#
+# 2. Edit `gcenv.sh` and replace the placeholder values below with your
+#    actual Google Cloud project ID and desired location.
+#
+# 3. Load the environment variables into your current shell session before
+#    running the application:
+#    source gcenv.sh
+
+# --- Google Cloud Configuration ---
+
+# TODO: Replace "your-gcp-project-id" with your actual Google Cloud project ID.
+export GOOGLE_CLOUD_PROJECT="your-gcp-project-id"
+
+# TODO: Replace "your-gcp-location" with a valid Google Cloud region (e.g., "us-central1").
+export GOOGLE_CLOUD_LOCATION="your-gcp-location"
+
+echo "✅ Projalyzer environment variables loaded for the current session."
