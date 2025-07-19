@@ -1,0 +1,33 @@
+# Local environment
+gcenv.sh
+
+# IDE / Editor specific files
+# ---------------------------
+# Ignore Visual Studio Code specific settings and cache.
+# It's common to commit launch.json and extensions.json if they are
+# useful for all collaborators. If so, you can un-ignore them with:
+# !.vscode/launch.json
+# !.vscode/extensions.json
+.vscode/
+
+# Python Virtual Environment
+# --------------------------
+# Ignore the virtual environment directory. The name can vary,
+# so common names are included. Your project uses `.venv`.
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+# ---------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment variables
+# ---------------------
+# Never commit files with secrets or user-specific configuration.
+.env
+*.log
